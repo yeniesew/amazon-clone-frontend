@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Productcard from './ProductCard'
-import classes from "./product.module.css"
+import classes from './Product.module.css';
 import Loader from "../loader/Loader";
 
 function Product() {
